@@ -68,3 +68,8 @@ To use the Postman collections:
    - Search Messages
 
    Don't forget to substitute the placeholders in the parameters with the real tokens and chat/message numbers!
+
+## Sequence Diagram
+![Chat Application Diagram](https://github.com/Atattia/chat-application-api/blob/main/chat-sequence-diagram.png)
+
+  
