@@ -8,6 +8,8 @@ The API supports creating and retrieving an instance of an application that cont
 
 It also offers functionality for searching messages using ElasticSearch.
 
+With Unit tests for each endpoint.
+
 ## Table of Contents
 
 1. [Installation](#installation)
