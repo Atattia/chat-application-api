@@ -2,7 +2,11 @@
 
 ## Overview
 
-This project is a chat application API built with Ruby on Rails. It provides endpoints for managing applications, chats, and messages. The API supports creating and retrieving applications, creating and managing chats within an application, and sending and updating messages within a chat. Additionally, it offers functionality for searching messages.
+A chat application API made with Ruby on Rails. It provides endpoints for creating applications that contain chats, chats, and messages.
+
+The API supports creating and retrieving an instance of an application that contain chats, creating and managing chats within an application, and sending and updating messages within a chat.
+
+It also offers functionality for searching messages using ElasticSearch.
 
 ## Table of Contents
 
@@ -26,7 +30,7 @@ This project is a chat application API built with Ruby on Rails. It provides end
    docker-compose up
 3. **Run database migrations:**
 
-   The application will automatically run migrations when starting up. If you need to run migrations manually, you can use the following command:
+   Run migrations using the following command:
 
    ```bash
    docker-compose run web rails db:migrate
@@ -42,11 +46,13 @@ This project is a chat application API built with Ruby on Rails. It provides end
 
 You can find detailed Postman collections for testing these endpoints [here](https://drive.google.com/file/d/1qkCTRp7GMhJ31kwUO1QgwGDoH_2fizTw/view?usp=sharing).
 
+Extract the downloaded ZIP file, you should end up with 3 Postman collections.
+
 To use the Postman collections:
 
 1. **Import the collection** into Postman:
   - Click on "Import" 
-  - Select the files downloaded from link above after extracting the 3 collections
+  - Select the extracted files
 2. **Run the requests** in the following order:
    - Create an Application
    - Get All Applications
